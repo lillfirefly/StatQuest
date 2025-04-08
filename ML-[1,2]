@@ -1,4 +1,3 @@
-
 # what's tuning parameter in ML
 
 In machine learning, a **tuning parameter** refers to a *hyperparameter*, which is an external configuration variable that controls the training process of a model. Unlike model parameters (e.g., weights in a neural network) that are learned from the training data, hyperparameters are set before the training begins and significantly influence the model's performance.
