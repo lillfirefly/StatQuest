@@ -12,7 +12,6 @@ In machine learning, a **tuning parameter** refers to a *hyperparameter*, which 
     - Depth of a decision tree
     - Regularization strength (e.g., L1/L2 penalties)
 
-
 ### Why Are Tuning Parameters Important?
 
 The choice of hyperparameters can dramatically affect a model's accuracy, generalization ability, and training efficiency. Poorly chosen hyperparameters may lead to underfitting (model too simple) or overfitting (model too complex) issues[^1_1][^1_2][^1_4].
@@ -28,23 +27,6 @@ Hyperparameter tuning involves experimenting with different values or combinatio
 
 By fine-tuning these parameters, machine learning practitioners can maximize their model's performance for specific tasks or datasets.
 
-<div>⁂</div>
-
-[^1_1]: https://domino.ai/data-science-dictionary/model-tuning
-
-[^1_2]: https://www.iguazio.com/glossary/model-tuning/
-
-[^1_3]: https://en.wikipedia.org/wiki/Hyperparameter_optimization
-
-[^1_4]: https://www.ibm.com/think/topics/hyperparameter-tuning
-
-[^1_5]: https://aws.amazon.com/what-is/hyperparameter-tuning/
-
-[^1_6]: https://learn.microsoft.com/en-us/azure/machine-learning/how-to-tune-hyperparameters?view=azureml-api-2
-
-[^1_7]: https://www.run.ai/guides/hyperparameter-tuning
-
----
 
 # so hyper parameter is like alpha the learning rate or lambda the regularization parameter? gimme more examples
 
@@ -58,7 +40,6 @@ Yes, hyperparameters like **alpha** (learning rate) and **lambda** (regularizati
     - L1 penalty weight in Lasso Regression.
 - **Epochs**: The number of times the entire dataset is passed through the model during training.
 - **Batch Size**: The number of samples used in one training iteration.
-
 
 ### Neural Networks
 
@@ -103,7 +84,20 @@ Yes, hyperparameters like **alpha** (learning rate) and **lambda** (regularizati
 
 Each algorithm may have unique hyperparameters that need careful tuning to optimize performance.
 
+
 <div>⁂</div>
+
+[^1_1]: <https://domino.ai/data-science-dictionary/model-tuning>
+
+[^1_2]: <https://www.iguazio.com/glossary/model-tuning/>
+
+[^1_3]: <https://en.wikipedia.org/wiki/Hyperparameter_optimization>
+
+[^1_4]: <https://www.ibm.com/think/topics/hyperparameter-tuning>
+
+[^1_5]: <https://aws.amazon.com/what-is/hyperparameter-tuning/>
+
+[^1_6]: <https://learn.microsoft.com/en-us/azure/machine-learning/how-to-tune-hyperparameters?view=azureml-api-2>
 
 [^2_1]: https://www.aptech.com/blog/fundamentals-of-tuning-machine-learning-hyperparameters/
 
@@ -120,4 +114,3 @@ Each algorithm may have unique hyperparameters that need careful tuning to optim
 [^2_7]: https://www.run.ai/guides/hyperparameter-tuning
 
 [^2_8]: https://en.wikipedia.org/wiki/Hyperparameter_(machine_learning)
-
