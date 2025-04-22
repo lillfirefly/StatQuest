@@ -1,0 +1,33 @@
+### confusion matrix
+- diagonals => trues aka synced with actual values
+- mainly, tells us where the predictions are right or wrong, can be used to choose algorithm for specific problem as comparison
+  
+### sensitivity & specificity
+  
+1. 2 × 2 matrix:
+   - sensitivity: overfitting (identify positives more)
+     - which people actually have heart disease => tp/tp+fn
+     - cuz fn have heart disease but classified wrongly.
+   - specificity: variance (ignores positives more, specific in diagnosing)
+     - people wo heart disease correctly identified
+     - tn/tn+fp
+   - ![2*2](image.png)
+
+
+2. bigger matrices:
+   - calculated for each label individually
+   - sensitivity:
+     - tp/tp+(all predicted other but wasn't true)
+     - ![troll2](image-1.png)
+  
+   - specificity: 
+     - tn/tn+fp
+     - true negative => pred&actual was anything but the label
+     - fp: predicted as label but was false
+
+
+-- so, which is better?
+- higher sensitivity, if more positives are less cost
+- higher specificity: if specifying the diagnose is less costy
+
+![mindmap](<NotebookLM Mind Map (1).png>)
