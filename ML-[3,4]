@@ -11,14 +11,14 @@
    - specificity: variance (ignores positives more, specific in diagnosing)
      - people wo heart disease correctly identified
      - tn/tn+fp
-   - ![2*2](image.png)
+   - ![2*2](./pics/image.png)
 
 
 2. bigger matrices:
    - calculated for each label individually
    - sensitivity:
      - tp/tp+(all predicted other but wasn't true)
-     - ![troll2](image-1.png)
+     - ![troll2](./pics/image-1.png)
   
    - specificity: 
      - tn/tn+fp
@@ -30,4 +30,4 @@
 - higher sensitivity, if more positives are less cost
 - higher specificity: if specifying the diagnose is less costy
 
-![mindmap](<NotebookLM Mind Map (1).png>)
+![mindmap](./pics/mindmap.png)
